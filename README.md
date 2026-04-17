@@ -19,3 +19,39 @@
 [![](https://visitcount.itsvg.in/api?id=Thanh-hub&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .cert-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .cert-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: 0.3s;
+        }
+        .cert-card:hover { transform: scale(1.05); }
+        .cert-card img { width: 100%; height: auto; }
+        .cert-info { padding: 15px; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="cert-container">
+        <div class="cert-card">
+            <img src="path-to-your-cert.jpg" alt="Certification Name">
+            <div class="cert-info">
+                <h3>Claude 101</h3>
+                <p>Cung cấp bởi: Claude</p>
+                <a href="#"><img width="3300" height="2550" alt="thanh1" src="https://github.com/user-attachments/assets/7ef53761-c46e-4d50-9e3c-bd5dab088962" />
+</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
